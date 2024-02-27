@@ -18,9 +18,9 @@ function countDeadAnts(input) {
     
     return maxDeadAnts;
   }
-  
+  module.exports = countDeadAnts;
   // Example of usage
-  const input = "...ant...ant..nat.ant.t..ant...ant..ant..ant.anant..t";
+  const input = "";
   const deadAnts = countDeadAnts(input);
   console.log(`there are a total of ${deadAnts} ants dead`);; // Expected output according to the given input
   
